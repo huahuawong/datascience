@@ -1,8 +1,8 @@
 /* #1 Write a SQL query for a report that provides the following information for 
-each person in the Person table, regardless if there is an address for each of those people:
+      each person in the Person table, regardless if there is an address for each of those people.
 
-We use left join because we don't care about what's going on the right side, i.e. the address
-  If we don't care if there is a last name for each person, we'd use RIHGT JOIN */
+      We use left join because we don't care about what's going on the right side, i.e. the address
+      If we don't care if there is a last name for each person, we'd use RIHGT JOIN */
 
     
 SELECT Person.FirstName, Person.LastName, Address.City, Address.State 
