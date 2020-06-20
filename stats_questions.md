@@ -11,8 +11,10 @@ Before we talk about what is p value, we should understand what is null hypothes
 introduce a change to a system, there will be zero to none effects. If there really is no effect, we can declare that the null 
 hypothesis is true, and p value evaluate how well our sample data support the null hypothesis.
 
-High P values means that data is likely with a true null hypothesis
-Low P values means that data is unlikely with a true null hypothesis
+High P values (typically > 0.05) means that data is likely with a true null hypothesis
+Low P values (typically ≤ 0.05) means that data is unlikely with a true null hypothesis
+
+
 
 
 
