@@ -13,7 +13,11 @@ hypothesis is true, and p value evaluate how well our sample data support the nu
 High P values (typically > 0.05) means that data is likely with a true null hypothesis
 Low P values (typically ≤ 0.05) means that data is unlikely with a true null hypothesis
 
+# Q3. What is bias?
+Bias is the dfference between the model prediction and the actual values that it is trying to predict. Bias tends to oversimplifies the model
 
+# Q4. What is variance?
+Variance is the variability of the model prediction given a testing dataset. Models with high variance tend to focus on training data, but not testing. This results in overfitting.
 
 
 
