@@ -19,5 +19,12 @@ Bias is the dfference between the model prediction and the actual values that it
 # Q4. What is variance?
 Variance is the variability of the model prediction given a testing dataset. Models with high variance tend to focus on training data, but not testing. This results in overfitting.
 
+# Q5. What is the bias and variance tradeoff?
+The need to strike a balance between these two, A good balance would ensure that the model isn’t underfitting or overfitting
 
+# Q6. What’s confidence interval?
+Let's say we want to have an idea of the population mean, but we can't be 100% certain on the actual number, so we get a range of values that we're confident that the actual value will be within this range
 
+# Q7. What are the factors that affect confidence interval?
+1. Sample size - higher sample size would result in wider CI and vice-versa
+2. Variation - Low variation would result in narrower CI and vice-versa
