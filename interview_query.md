@@ -6,4 +6,10 @@ P(at least one 3) = P(getting one 3) + P(getting two 3s)
                   = 11/36
                   
 ## 2. What's the probability of rolling at least one 3 given N die?
+If we think about it, when we have 3 dices, there will be a lot of combinations to consider. How about we structure our solution in a different way by finding the 
+complement, i.e. probablility of not getting a 3 at all?
 
+Assuming we have 2 dice, the probabolity of not getting a 3 at all would be (5/6)^2
+Assuming we have 3 dice, the probabolity of not getting a 3 at all would be (5/6)^3
+
+Thus, we can form the equation for the probability as: 1 - (5/6)^N
