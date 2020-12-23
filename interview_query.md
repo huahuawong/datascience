@@ -13,3 +13,11 @@ Assuming we have 2 dice, the probabolity of not getting a 3 at all would be (5/6
 Assuming we have 3 dice, the probabolity of not getting a 3 at all would be (5/6)^3
 
 Thus, we can form the equation for the probability as: 1 - (5/6)^N
+
+# 3. This question was asked by: Fitbit
+## Given a list of numbers and window_size (int), calculate the moving window average.
+
+
+
+
+
