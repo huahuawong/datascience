@@ -17,6 +17,18 @@ Thus, we can form the equation for the probability as: 1 - (5/6)^N
 # 3. This question was asked by: Fitbit
 ## Given a list of numbers and window_size (int), calculate the moving window average.
 
+def moving_avg(arr, val):
+    i = 0; mov_avg = []
+    while i < (len(arr) - val + 1):
+        avg_val = sum(arr[i:i+val])/val
+        mov_avg.append(avg_val)
+        i += 1
+    return mov_avg
+
+input1 = [1,2,3,4,5,6]
+val = 5
+print(moving_avg(input1, val))
+
 
 
 
