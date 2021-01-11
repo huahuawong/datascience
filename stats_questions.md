@@ -26,3 +26,12 @@ Let's say we want to have an idea of the population mean, but we can't be 100% c
 # Q7. What are the factors that affect confidence interval?
 1. Sample size - higher sample size would result in wider CI and vice-versa
 2. Variation - Low variation would result in narrower CI and vice-versa
+
+# Q8. What is maximum likelihood estimation? Could there be any case where it doesn’t exist?
+MLE is essentially finding a parameter which maximizes the likelihood that the process described by the model produced the data that were actually observed.
+It can readily be generalized to the case where we are trying to estimate the probability density of observing a single data point x, that is generated from a Gaussian distribution, i.e. P(x; mean, standard deviation). It can be used to estimate parameters for machine learning models such as Logistic Regression
+
+It doesn't exist when we want to model that with a mixture of Gaussians, where the estimation diverges. Let's say if we only have one Gaussian on one of the 
+training examples. During MLE, the σ of the model will decrease, increasing the likelihood. As a result, other instances would become less likely.
+
+# Q9. 
