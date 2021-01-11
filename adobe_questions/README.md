@@ -1,4 +1,4 @@
-# Internship question for Adobe Take Home Assignment
+# Take Home Assignment for Adobe Data Science Internship
 
 This is the take home assignment for data science internship - summer 2020
 
