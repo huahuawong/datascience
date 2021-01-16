@@ -13,7 +13,16 @@ Some parts of the Semantic Web technologies are based on results of Artificial I
 It is also true that the development of the Semantic Web brought some new perspectives to the Artificial Intelligence community: the “Web effect”, i.e., the merge of knowledge coming from different sources, usage of URIs, the necessity to reason with incomplete data; etc.
 
 ## Okay so, what's RDF exactly?
-RDF is a framework for describing resources on the web and is designed to be read and understood by computers
+RDF is a framework for describing resources on the web and is designed to be read and understood by computers. RDF Statements is a combination of a Resource, a Property, and a Property value forms a Statement (known as the subject, predicate and object of a Statement).
+
+Let's look at some example statements to get a better understanding:
+
+Statement: "The author of https://www.w3schools.com/rdf is Jan Egil Refsnes".
+
+    The subject of the statement above is: https://www.w3schools.com/rdf
+    The predicate is: author
+    The object is: Jan Egil Refsnes
+
 
 
 
