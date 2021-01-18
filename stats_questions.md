@@ -34,4 +34,6 @@ It can readily be generalized to the case where we are trying to estimate the pr
 It doesn't exist when we want to model that with a mixture of Gaussians, where the estimation diverges. Let's say if we only have one Gaussian on one of the 
 training examples. During MLE, the σ of the model will decrease, increasing the likelihood. As a result, other instances would become less likely.
 
-# Q9. 
+# Q9. Type 1 Error vs Type 2 Error
+Type 1 Error refers to false positive while Type 2 Error refers to false negative
+
