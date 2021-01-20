@@ -1,4 +1,5 @@
 # Q1. How do to find thresholds for a classifier?
+In general, the threshold used for a classifier is 0.5, but this could pose a problem when it's dealing with an imbalanced dataset. There are different ways to find the optimal threshold. A simple method is similar to "grid search" where you set different threshold and pay close attention to the TPR and FPR values and draw the ROC curve before comparing each one of them.
 
 # Q2 What’s the difference between logistic regression and support vector machines? What's an example of a situation where you would use one over the other?
 
