@@ -22,3 +22,6 @@ In PCA, a set of variables predict themselves: they model principal components w
 
 # Q6 What is backpropagation?
 Well, usually when we design a neural network, we have intiial weights. And these weights may result in a significant error in the model output. So one way to reduce the error is through BP, where minimum value of the error function in weight space is calculated using gradient descent. This could increase the accuracy of the predicition using the model.
+
+# Q7 What’s the difference between Generative and Discriminative models? 
+Generative models consider the joint probability distribution while discriminative models consider the conditional probability distribution. In general, generative models try to figure out how to generate the data to perform classification, while discrimative models simply differentiates between data of different classes.
