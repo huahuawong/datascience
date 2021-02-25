@@ -37,4 +37,16 @@ training examples. During MLE, the σ of the model will decrease, increasing the
 ## Q9. Type 1 Error vs Type 2 Error
 Type 1 Error refers to false positive while Type 2 Error refers to false negative
 
-## Q10
+## Q10. What is the difference between convex and non-convex cost function; what does it mean when a cost function is non-convex?
+We can think of convex cost function as a convex graph, i.e. a nice U shape curve, whereas non-convex means it isn't convex-shaped, and it's often been observed as having a wavy line. But what if you can't plot the graph of the cost function? If the function is twice differentiable, and the second derivative is always greater than or equal to zero for its entire domain, then the function is convex.
+
+When a cost function is non-convex, it means that there’s a likelihood that the function may find local minima instead of the global minimum. Note that both l2 and l1 regularizations are convex, and one of the example of non-convex cost function is the neural network, which depending on the hidden layers, may be non-convex.
+
+## Q11. What is *l0 norm*, *l1 norm* and *l2 norm* exactly?
+First, what is a norm? In mathematics, a norm is a function from a real or complex vector space to the nonnegative real numbers that behaves in certain ways like the distance from the origin: it commutes with scaling, obeys a form of the triangle inequality, and is zero only at the origin
+
+The *L0 norm* is the number of non-zero elements in a vector. *l1 norm* is the sum of the magnitudes of the vectors in a space, also known as Manhattan norm. *l2 norm* is the shortest distance to go from one point to another, also known as Eucliden norm.
+
+
+
+
