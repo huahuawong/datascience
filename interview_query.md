@@ -29,6 +29,8 @@ input1 = [1,2,3,4,5,6]
 val = 5
 print(moving_avg(input1, val))
 
+## Q3. What do you think the distribution of time spent per day on Facebook looks like? What metrics would you use to describe that distribution?
+For Facebook, the first intuition might be it's normal distribution, but I think it depends. We can look at this as a problem of probablities. Assuming a user who is currently browsing FB has probability of *p* to leave FB after a certain unit of time, denoted as *t*. *p* could be described as a function of *t*, i.e. the longer the user is on FB, the lower/ higher the *p* for the user to stop using FB. Time spend per day in Facebook also depends on the period of the day where most posts are being posted/ videos posted/ more contents in general.
 
 
 
